@@ -18,7 +18,7 @@ fname="head.asp"
         %>
         <!--#include file="header.asp"-->
 
-        <div id="page-wrapper">
+       <div id="page-wrapper">
             
             <div class="row">
                 <div class="col-lg-12">
