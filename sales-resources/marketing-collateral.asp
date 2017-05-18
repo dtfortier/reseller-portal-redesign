@@ -18,17 +18,18 @@ fname="head.asp"
         %>
         <!--#include file="header.asp"-->
 
-        <div id="page-wrapper">
-            
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Marketing Collateral</h1>
-                </div>
+        <div class="page-wrapper top">
+
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h1 class="main">Marketing Collateral</h1>
+                            <!-- /.col-lg-12 -->
+                            </div>
+                        </div>
             </div>
-                <!-- /.col-lg-12 -->
-                
-          
-            
+               <!-- /.col-lg-12 -->
+            <div class="page-wrapper bottom">
             <div class="row">
                 <div class="col-md-6">
                     <div class="block">
@@ -885,9 +886,7 @@ fname="head.asp"
                                               </div>
                                           </div>
                                       </li>
-                                      
-                                      
-                                      
+                          
                                     </ul>
                                 </div>
                               </div>

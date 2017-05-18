@@ -7,7 +7,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../index.asp"><img src="../images/le-logo.png" width="164" height="37"/></a>
+                <a class="navbar-brand" href="../index.asp"><img src="../images/le-logo-wht.png" width="164" height="37"/></a>
             </div>
             <!-- /.navbar-header -->
 
@@ -36,7 +36,7 @@
                     <ul class="nav" id="side-menu">
                        
                         <li>
-                            <a href="http://proadadmin.localedge.com/" target="_blank">Reporting</a>
+                            <a href="http://proadadmin.localedge.com/">Reporting</a>
                         </li>
                         <li>
                             <a href="../admin-tools.asp">Admin Tools</a>
