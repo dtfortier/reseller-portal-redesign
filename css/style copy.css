@@ -1,0 +1,424 @@
+.bodyClass {
+        margin: 0
+}
+
+.sideBarTitle {
+        color: white;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 12pt
+}
+
+.indentedMenuList {
+        padding-left: 15;
+        color: yellow
+}
+
+.sideBarMenuTitle {
+        color: white;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 11pt
+}
+
+.sideBarMenuLink {
+        color: yellow;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 10pt;
+        text-decoration: none
+}
+
+.sideBarMenuLink:hover {
+        color: red;
+        font-family: arial
+}
+
+.handcursor {
+	cursor: pointer;
+}
+
+.whitelink {
+	cursor: pointer;
+	color: white;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 10pt;
+        text-decoration: none;
+        }
+        
+.sideBarMenuNotLink {
+        color: yellow;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 11pt;
+        text-decoration: none
+}
+
+.mainSection {
+        padding-left: 15;
+        padding-right: 15
+}
+
+.largeText {
+        font-family: arial;
+        font-size: 30pt;
+        font-weight: bold
+}
+
+.sectionHeader {
+        font-family: arial;
+        font-size: 11pt;
+        font-weight: bold;
+        background-color: #EFEFEF
+}
+
+.regularText {
+        font-family: arial;
+        font-size: 10pt;
+        font-weight: bold
+}
+
+.menuLarge {
+        font-family: arial;
+        font-size: 16pt;
+        font-weight: bold
+}
+
+.menuBar {
+        font-family: arial;
+        font-size: 12pt;
+        color: white;
+        background-color: #000066;
+        font-weight: bold
+}
+
+.menuBarBlack {
+        font-family: arial;
+        font-size: 16pt;
+        color: white;
+        font-weight: bold
+}
+
+
+.menuBarSmall {
+        font-family: arial;
+        font-size: 10pt;
+        color: white;
+        background-color: #000066;
+        font-weight: bold
+}
+
+.menuBarSmallPrint {
+        font-family: arial;
+        font-size: 10pt;
+        font-weight: bold
+}
+
+.menuBarPrint {
+        font-family: arial;
+        font-size: 12pt;
+        font-weight: bold
+}
+
+.menuBarPrintSmall {
+        font-family: arial;
+        font-size: 10pt;
+        font-weight: bold
+}
+
+.menuTableSplitBar {
+        font-weight: bold;
+        font-family: arial;
+        font-size: 14pt;
+        background-color: #EFEFEF
+}
+
+.menuTableSplitBarPrint {
+        font-family: arial;
+        font-size: 14pt;
+        font-weight: bold;
+}
+
+.specMenuItem {
+        font-family: arial;
+        font-size: 9pt;
+        background-color: yellow
+}
+
+.salesGraphicReturnMenuItem {
+        font-family: arial;
+        font-size: 9pt;
+        background-color: rgb(255, 150, 150)
+}
+
+.salesResolvedGraphicReturnMenuItem {
+        font-family: arial;
+        font-size: 9pt;
+        background-color: rgb(109, 207, 246)
+}
+
+.inWorkMenuItem {
+        font-family: arial;
+        font-size: 9pt;
+        background-color: lightgreen
+}
+
+.menuItemPrint {
+        font-family: arial;
+        font-size: 10pt
+}
+
+.menuItemPrintSmall {
+        font-family: arial;
+        font-size: 8pt
+}
+
+.menuTotal {
+        font-family: arial;
+        font-size: 10pt;
+        font-weight: bold
+}
+
+.minorMenuBar {
+        font-family: arial;
+        font-size: 10pt;
+        color: white;
+        background-color: #000066;
+        font-weight: bold
+}
+
+.adminHeader {
+        font-family: arial;
+        font-size: 10pt;
+        font-weight: bold
+}
+
+.adminHeaderUnderlined {
+        font-family: arial;
+        font-size: 12pt;
+        font-weight: bold;
+        text-decoration: underline
+}
+
+.adminItem {
+        font-family: arial;
+        font-size: 10pt
+}
+
+.indentedAdminItem {
+        padding-left: 15;
+        font-family: arial;
+        font-size: 10pt
+}
+
+.inputItem {
+        width: 300;
+        font-family: arial;
+        font-size: 10pt
+}
+
+.loginItem {
+
+        font-family: arial;
+        font-size: 10pt
+}
+
+.inputItemLarge {
+        width: 500;
+        font-family: arial;
+        font-size: 10pt
+}
+
+.inputItemVeryLarge {
+        width: 700;
+        font-family: arial;
+        font-size: 10pt
+}
+
+.inputItemMed {
+        width: 190;
+        font-family: arial;
+        font-size: 10pt
+}
+
+.inputItemMediumShort {
+        width: 170;
+        font-family: arial;
+        font-size: 10pt
+}
+
+.inputItemShort {
+        width: 150;
+        font-family: arial;
+        font-size: 10pt
+}
+
+.inputItemVeryShort {
+        width: 50;
+        font-family: arial;
+        font-size: 10pt
+}
+
+
+.adminHeaderError {
+        color: red;
+        font-family: arial;
+        font-size: 10pt;
+        font-weight: bold
+}
+
+.adminHeaderErrorUnderlined {
+        color: red;
+        font-family: arial;
+        font-size: 10pt;
+        font-weight: bold;
+        text-decoration: underline
+}
+
+.editLink {
+        color: olive;
+        text-decoration: none
+}
+
+.editLink:hover {
+        color: blue
+}
+
+.activateLink {
+        color: green;
+        text-decoration: none
+}
+
+.activateLink:hover {
+        color: blue
+}
+
+.deactivateLink {
+        color: red;
+        text-decoration: none
+}
+
+.deactivateLink:hover {
+        color: blue
+}
+
+.reportLink {
+        font-family: arial
+}
+
+.reportLink:hover {
+        color: red
+}
+
+.blueLink {
+        color: blue;
+        font-family: arial
+}
+
+.blueLink:hover {
+        color: red
+}
+
+.blueBackLink {
+        padding-left: 15;
+        color: yellow;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 10pt;
+        text-decoration: none
+}
+
+.blueBackLink:hover {
+        color: red;
+        font-family: arial
+}
+
+.thumbnail {
+        font-family: arial;
+        font-size: 10pt;
+        color: white;
+        background-color: #000066;
+        font-weight: bold
+}
+
+.chooseOneBtn {
+        width: 147;
+}
+
+.buttonFull {
+        width: 300;
+}
+
+.textAreaLarge {
+        width: 300;
+        height: 100;
+        font-family: arial;
+        font-size: 10pt
+}
+
+.textAreaMed {
+        width: 190;
+        height: 75;
+        font-family: arial;
+        font-size: 10pt
+}
+
+.textAreaShort {
+        width: 300;
+        height: 75;
+        font-family: arial;
+        font-size: 10pt
+}
+
+.MenuHeader {
+	font-family: Verdana, Arial, Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10pt;
+	color: black;
+	background-color: #FFFFFF;
+      }
+      
+.MenuItem {
+	font-family: Verdana, Arial, Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10pt;
+	color: black;
+	background-color: #FFFFFF;
+      }
+
+.MenuItem:hover {
+	font-family: Verdana, Arial, Helvetica;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10pt;
+	color: black;
+	background-color: #FFFFFF;
+      }
+      
+.HeaderItem {
+	font-family: Verdana, Arial, Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 10pt;
+	color: white;
+      }
+   
+.MenuItemLink {
+        text-decoration: none;
+        color: black;
+        font-family: Verdana, Arial, Helvetica;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10pt;
+}   
+
+.MenuItemLink:hover {
+        text-decoration: underline;
+        color: #006666;
+        font-family: Verdana, Arial, Helvetica;
+        font-weight: normal;
+        font-size: 10pt;
+}   
