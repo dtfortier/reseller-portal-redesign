@@ -34,7 +34,9 @@
 <script language="JavaScript" type="text/javascript" src="js/collapse.js"></script>
 <script language="JavaScript" type="text/javascript" src="js/metisMenu.min.js"></script>
 <script language="JavaScript" type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script language="JavaScript" type="text/javascript" src="js/feed-add.js"></script>
 <script language="JavaScript" type="text/javascript" src="featuredcontentglider.js">
+    
 /***********************************************
 * Featured Content Glider script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
 * Visit https://www.dynamicDrive.com for hundreds of DHTML scripts
