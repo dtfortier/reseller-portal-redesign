@@ -122,7 +122,7 @@ fname="head.asp"
                             </ul>
                     </div>
                     <div class="block">
-                        <div class="heading"><h1>Procedures & Training</h1></div>
+                        <div class="heading"><h1>Admin Procedures & Training</h1></div>
                           <ul class="list-group">
 						<h2>Reporting</h2>
                           <li class="list-group-item">
