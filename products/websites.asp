@@ -18,15 +18,49 @@ fname="head.asp"
         %>
         <!--#include file="header.asp"-->
 
-        <div id="page-wrapper">
+        <div class="page-wrapper top">
             
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Websites</h1>
+            
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="main">Websites</h1>
+                    <!-- /.col-lg-12 -->
+                        
+                        <div class="board">
+                    
+                            <ul class="nav nav-tabs" id="myTab">
+
+                             <li class="active">
+                             <a href="#overview" data-toggle="tab" title="overview">
+                              <span class="round-tabs one">
+                                      <i class="glyphicon glyphicon-list-alt"></i><p>Overview</p> 
+                              </span> 
+                          </a></li>
+
+                          <li><a href="#resources" data-toggle="tab" title="resources">
+                             <span class="round-tabs two">
+                                 <i class="glyphicon glyphicon-folder-open"></i><p>Resources</p>
+                             </span> 
+                   </a>
+                         </li>
+                         <li><a href="#faq" data-toggle="tab" title="faq">
+                             <span class="round-tabs three">
+                                  <i class="glyphicon glyphicon-question-sign"></i><p>FAQ</p>
+                             </span> </a>
+                             </li>
+
+                             </ul>
+                            </div>
+              
+                </div>
                 </div>
             </div>
                 <!-- /.col-lg-12 -->
+            <div class="page-wrapper bottom">
                 
+                      <!-- Tab panes -->
+                  <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="overview">
             <div class="row">
                 <div class="col-lg-12 block">
                     <!--<div class="heading"><h1>SEO Product Table</h1></div>-->
@@ -269,7 +303,8 @@ fname="head.asp"
                         </table>
                 </div>
             </div>
-            
+        </div><!--end tab 1-->
+            <div role="tabpanel" class="tab-pane" id="resources">
             <div class="row">
                 <div class="col-md-6">
                     <div class="block">
@@ -340,7 +375,7 @@ fname="head.asp"
                                   <li class="list-group-item">
                                       <div class="row">
                                           <div class="col-lg-12">
-                                            <a href="../policies/WebsitesEssentialsAdvantageCustom.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Websites - Essentials, Advantage, & Custom</a>
+                                            <a href="https://sales.localedge.com/portalcontent/Policy_Manual/Digital_Policies/Websites%20Policy-%20Essentials,%20Advantage%20&%20Custom.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Websites - Essentials, Advantage, & Custom</a>
                                           </div>
                                       </div>
                                   </li>
@@ -355,7 +390,7 @@ fname="head.asp"
                             </ul>
                     </div>
                     <div class="block">
-                        <div class="heading"><h1>Admin Procedures & Training</h1></div>
+                        <div class="heading"><h1>Procedures & Training</h1></div>
                         <ul class="list-group">
                           <li class="list-group-item">
                               <div class="row">
@@ -497,14 +532,14 @@ fname="head.asp"
                                        <a href="http://webteamcreativeportal.com/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> Website Examples</a>
                                        <p class="list">Browse website examples sorted by industry, design elements, color, and package level. </p>
                                        <p class="list"><span>Username:</span> sales</p>
-                                       <p class="list"><span>Password:</span> Alwayswinbig#2017#!</p>
+                                       <p class="list"><span>Password:</span> Alwayswinbig#2017#</p>
                                       </div>
                                   </div>
                             </li> 
                         </ul>
                     </div>
                     <div class="block">
-                         <div class="heading"><h1>Sales Training Materials</h1></div>
+                         <div class="heading"><h1>Training Materials - 50/50 Materials</h1></div>
                          <h2>Product Expert Training</h2>
 						 <h3>Online Presence</h3>
                          <ul>
@@ -532,11 +567,12 @@ fname="head.asp"
                                   </div>
                             </li>   
                          </ul>
+                        </div>
                     </div>
                 </div>
-
-            </div>
+            </div><!--end tab 2-->
             
+            <div role="tabpanel" class="tab-pane" id="faq">
             <div class="row">
                 <div class="col-md-12">
                     <div class="block">
@@ -1100,6 +1136,8 @@ fname="head.asp"
                     </div>
                 </div>
             </div>
+        </div><!--end tab 3-->
+    </div><!--end tab-content-->
       
     </div>
            

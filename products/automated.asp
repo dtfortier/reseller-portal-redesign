@@ -17,19 +17,48 @@ fname="head.asp"
         fname="header.asp"
         %>
         <!--#include file="header.asp"-->
+         <div class="page-wrapper top">
 
-        <div id="page-wrapper">
-            
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Automated Marketing</h1>
-                </div>
-            </div>
-                <!-- /.col-lg-12 -->
-                
-          
-            
-            <div class="row">
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h1 class="main">Automated Marketing</h1>
+                            <!-- /.col-lg-12 -->
+
+                                <div class="board">
+
+                                    <ul class="nav nav-tabs" id="myTab">
+
+
+                                  <li class="active"><a href="#resources" data-toggle="tab" title="resources">
+                                     <span class="round-tabs two">
+                                         <i class="glyphicon glyphicon-folder-open"></i><p>Resources</p>
+                                     </span> 
+                           </a>
+                                 </li>
+                                 <li><a href="#faq" data-toggle="tab" title="faq">
+                                     <span class="round-tabs three">
+                                          <i class="glyphicon glyphicon-question-sign"></i><p>FAQ</p>
+                                     </span> </a>
+                                     </li>
+
+
+                                     </ul>
+                                    </div>
+
+
+
+
+
+
+                        </div>
+                        </div>
+                    </div>
+                        <!-- /.col-lg-12 -->
+                    <div class="page-wrapper bottom">
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="resources">
+                        <div class="row">
                 <div class="col-md-6">
                     
                     <div class="block">
@@ -48,14 +77,14 @@ fname="head.asp"
                 </div>
                 <div class="col-md-6">
                     <div class="block">
-                         <div class="heading"><h1>Sales Training Materials</h1></div>
+                         <div class="heading"><h1>Training Materials - 50/50 Materials</h1></div>
                          <h2>Product Expert Training</h2>
 						 <h3>Brand Management</h3>
                          <ul>
                             <li class="list-group-item">
                                   <div class="row">
                                       <div class="col-lg-12">
-                                        <a href="https://reseller.localedge.com/salestraining/Marketing_Automation 10-12-16.pptx"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i> Marketing Automation</a>
+                                        <a href="https://reseller.localedge.com/salestraining/MarketingAutomation10-12-16.pptx"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i> Marketing Automation</a>
                                       </div>
                                   </div>
                             </li>
@@ -65,10 +94,14 @@ fname="head.asp"
                 </div>
 
             </div>
-            
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="block">
+                        
+                    </div>
+          
+            <div role="tabpanel" class="tab-pane" id="faq">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="block">
                         <div class="heading"><h1>Frequently Asked Questions</h1></div>
                             <div id="accordion" role="tablist" aria-multiselectable="true">
                               <div class="panel panel-default">
@@ -825,9 +858,12 @@ fname="head.asp"
             
       
     </div>
-           
+            </div>
+            </div><!--end tabs-->
+        
+        <div class="space-fill"></div>
        
-     
+    </div>
     </div>
     <!-- /#wrapper -->
 
