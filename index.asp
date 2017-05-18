@@ -35,7 +35,12 @@ fname="head.asp"
                 <div class="col-lg-7 block updates">
                     <div class="heading"><h1><i class="fa fa-refresh" aria-hidden="true"></i> Latest Updates</h1></div>
                     <table class="table">
-                          <tbody>
+                           <tbody>
+                            <tr>
+                              <td><i class="fa fa-circle updated" aria-hidden="true"></i></td>
+                              <td>The "Orders Timeline" doc has been updated and renamed to "<a href="https://reseller.localedge.com/admin-tools.asp">Orders & SLAs General Timeline Info</a>" in Admin Tools.</td>
+                              <td>05/02/2017</td>
+                            </tr>  
                             <tr>
                               <td><i class="fa fa-circle added" aria-hidden="true"></i></td>
                               <td>A link for the Hearst version of iEngage has been added under Tools.</td>
@@ -43,7 +48,7 @@ fname="head.asp"
                             </tr>
                             <tr>
                               <td><i class="fa fa-circle added" aria-hidden="true"></i></td>
-                              <td> SEM Essentials has been added under Findability. Custom SMM Packages has been added under Brand Management. Cold Calling - Premise & Phone and Commitment Objectives have been updated under Introduction to Appointment Setting. Payment - Expectations - Content Gathering has been updated under Introduction to Edge Selling.</td>
+                              <td> SEM Essentials has been added under Findability. Custom SMM Packages have been added under Brand Management. Cold Calling - Premise & Phone and Commitment Objectives have been updated under Introduction to Appointment Setting. Payment - Expectations - Content Gathering has been updated under Introduction to Edge Selling.</td>
                               <td>06/29/2016</td>
                             </tr>
                             <tr>
@@ -58,15 +63,10 @@ fname="head.asp"
                             </tr>
                             <tr>
                               <td><i class="fa fa-circle updated" aria-hidden="true"></i></td>
-                              <td>Customer Dashboard training deck has been updated. Sales Training Games has been removed. LocalTrack training deck has been updated. All files under Sales Presentations have been removed.</td>
+                              <td>Customer Dashboard training deck has been updated. Sales Training Games have been removed. LocalTrack training deck has been updated. All files under Sales Presentations have been removed.</td>
                               <td>05/09/2016
                         </td>
-                            </tr>
-                            <tr>
-                              <td><i class="fa fa-circle added" aria-hidden="true"></i></td>
-                              <td>Sales Wizard - Introduction has been added under Sales Rep Essentials</td>
-                              <td>05/06/2016</td>
-                            </tr>  
+                            </tr> 
                           </tbody>
                         </table>
                 </div>
