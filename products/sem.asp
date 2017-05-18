@@ -306,7 +306,7 @@ fname="head.asp"
                             </ul>
                     </div>
                     <div class="block">
-                        <div class="heading"><h1>Procedures & Training</h1></div>
+                        <div class="heading"><h1>Admin Procedures & Training</h1></div>
                         <ul class="list-group">
                           <li class="list-group-item">
                               <div class="row">
@@ -361,7 +361,7 @@ fname="head.asp"
                         </ul>
                     </div>-->
                     <div class="block">
-                         <div class="heading"><h1>Training Materials - 50/50 Materials</h1></div>
+                         <div class="heading"><h1>Sales Training Materials</h1></div>
                          <h2>Product Expert Training</h2>
                          <h3>Findability</h3>
                          <ul>

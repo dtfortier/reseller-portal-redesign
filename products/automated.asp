@@ -77,7 +77,7 @@ fname="head.asp"
                 </div>
                 <div class="col-md-6">
                     <div class="block">
-                         <div class="heading"><h1>Training Materials - 50/50 Materials</h1></div>
+                         <div class="heading"><h1>Sales Training Materials</h1></div>
                          <h2>Product Expert Training</h2>
 						 <h3>Brand Management</h3>
                          <ul>
