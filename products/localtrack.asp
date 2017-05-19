@@ -18,17 +18,46 @@ fname="head.asp"
         %>
         <!--#include file="header.asp"-->
 
-        <div id="page-wrapper">
-            
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">LocalTrack</h1>
-                </div>
-            </div>
+        <div class="page-wrapper top">
+
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h1 class="main">LocalTrack</h1>
+                            <!-- /.col-lg-12 -->
+
+                                <div class="board">
+
+                                    <ul class="nav nav-tabs" id="myTab">
+
+
+                                  <li class="active"><a href="#resources" data-toggle="tab" title="resources">
+                                     <span class="round-tabs two">
+                                         <i class="glyphicon glyphicon-folder-open"></i><p>Resources</p>
+                                     </span> 
+                           </a>
+                                 </li>
+                                 <li><a href="#faq" data-toggle="tab" title="faq">
+                                     <span class="round-tabs three">
+                                          <i class="glyphicon glyphicon-question-sign"></i><p>FAQ</p>
+                                     </span> </a>
+                                     </li>
+
+
+                                     </ul>
+                                    </div>
+
+
+
+                        </div>
+                        </div>
+                    </div>
                 <!-- /.col-lg-12 -->
                 
           
-            
+             <div class="page-wrapper bottom">
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="resources">
             <div class="row">
                 <div class="col-md-6">
                     <div class="block">
@@ -62,10 +91,11 @@ fname="head.asp"
                 </div>
 
             </div>
-            
+                    </div><!--end tab 1-->
+            <div role="tabpanel" class="tab-pane" id="faq">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="block">
+                             <div class="block">
                         <div class="heading"><h1>Frequently Asked Questions </h1></div>
                             <div id="accordion" role="tablist" aria-multiselectable="true">
                               <div class="panel panel-default">
@@ -120,7 +150,9 @@ fname="head.asp"
                     </div>
                 </div>
             </div>
-            
+        </div><!--end tab 2-->
+    </div><!--end tab content-->       
+     <div class="space-fill"></div>       
       
     </div>
            

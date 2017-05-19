@@ -18,19 +18,47 @@ fname="head.asp"
         %>
         <!--#include file="header.asp"-->
 
-        <div id="page-wrapper">
+        <div class="page-wrapper top">
             
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Landing Page & Videos</h1>
+            
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="main">Landing Pages & Video</h1>
+                    <!-- /.col-lg-12 -->
+                        
+                        <div class="board">
+                    
+                            <ul class="nav nav-tabs" id="myTab">
+
+                          <li class="active">
+                              <a href="#resources" data-toggle="tab" title="resources">
+                             <span class="round-tabs two">
+                                 <i class="glyphicon glyphicon-folder-open"></i><p>Resources</p>
+                             </span> 
+                            </a>
+                         </li>
+                         <li><a href="#faq" data-toggle="tab" title="faq">
+                             <span class="round-tabs three">
+                                  <i class="glyphicon glyphicon-question-sign"></i><p>FAQ</p>
+                             </span> </a>
+                             </li>
+
+                             </ul>
+                            </div>
+              
+                </div>
                 </div>
             </div>
                 <!-- /.col-lg-12 -->
+                <div class="page-wrapper bottom">
                 
+                      <!-- Tab panes -->
+                  <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="resources">
              
             <div class="row">
                 <div class="col-md-6">
-                    <div class="block">
+                      <div class="block">
                         <div class="heading"><h1>Tools</h1></div>
                             <ul class="list-group">
                                   <li class="list-group-item">
@@ -196,7 +224,8 @@ fname="head.asp"
                 </div>
 
             </div>
-            
+                      </div>
+            <div role="tabpanel" class="tab-pane" id="faq">
             <div class="row">
                 <div class="col-md-12">
                     <div class="block">
@@ -517,8 +546,7 @@ fname="head.asp"
                     </div>
                 </div>
             </div>
-   
-	<div class="row">
+	   <div class="row">
                 <div class="col-md-12">
                     <div class="block">
                         <div class="heading"><h1>Frequently Asked Questions - Local Search & Premium Placement</h1></div>
@@ -729,6 +757,8 @@ fname="head.asp"
                     </div>
                 </div>
             </div>
+                </div><!--end tab-->
+                      </div><!--end tab content-->
            
        
      

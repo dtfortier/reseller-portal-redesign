@@ -18,17 +18,18 @@ fname="head.asp"
         %>
         <!--#include file="header.asp"-->
 
-        <div id="page-wrapper">
-            
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Sales Tools</h1>
-                </div>
+         <div class="page-wrapper top">
+
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h1 class="main">Tools</h1>
+                            <!-- /.col-lg-12 -->
+                            </div>
+                        </div>
             </div>
-                <!-- /.col-lg-12 -->
-                
-          
-            
+               <!-- /.col-lg-12 -->
+            <div class="page-wrapper bottom">
             <div class="row">
                 <div class="col-md-6">
                     <div class="block">
@@ -160,7 +161,7 @@ fname="head.asp"
                                        <a href="http://webteamcreativeportal.com/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> Website Examples</a>
                                        <p class="list">Browse website examples sorted by industry, design elements, color, and package level. </p>
                                        <p class="list"><span>Username:</span> sales</p>
-                                       <p class="list"><span>Password:</span> Alwayswinbig#2017#!</p>
+                                       <p class="list"><span>Password:</span> Alwayswinbig#2017#</p>
                                       </div>
                                   </div>
                             </li> 

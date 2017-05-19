@@ -18,17 +18,19 @@ fname="head.asp"
         %>
         <!--#include file="header.asp"-->
 
-        <div id="page-wrapper">
-            
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Admin Tools</h1>
-                </div>
+            <div class="page-wrapper top">
+
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h1 class="main">Admin Tools</h1>
+                            <!-- /.col-lg-12 -->
+                            </div>
+                        </div>
             </div>
-                <!-- /.col-lg-12 -->
-                
+               <!-- /.col-lg-12 -->
+            <div class="page-wrapper bottom">
            
-            
             <div class="row">
                 <div class="col-md-6">
                     <div class="block">
@@ -37,7 +39,7 @@ fname="head.asp"
                                   <li class="list-group-item">
                                       <div class="row">
                                           <div class="col-lg-12">
-                                            <a href="http://atlas.localedge.com" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> atlas.localedge.com</a>
+                                            <a href="http://atlas.localedge.com"><i class="fa fa-external-link" aria-hidden="true"></i> atlas.localedge.com</a>
                                           </div>
                                       </div>
                                   </li>
@@ -45,7 +47,7 @@ fname="head.asp"
                     </div>
                     <div class="block">
                         <div class="heading"><h1>Tools</h1></div>
-                            <ul class="list-group">
+                         <ul class="list-group">
                                   <li class="list-group-item">
                                       <div class="row">
                                           <div class="col-lg-12">
@@ -121,7 +123,7 @@ fname="head.asp"
                     </div>
                     <div class="block">
                         <div class="heading"><h1>Admin Procedures & Training</h1></div>
-                        <ul class="list-group">
+                          <ul class="list-group">
 						<h2>Reporting</h2>
                           <li class="list-group-item">
                               <div class="row">
@@ -221,7 +223,7 @@ fname="head.asp"
                           <li class="list-group-item">
                               <div class="row">
                                   <div class="col-lg-12">
-                                    <a href="policies/Orders_&_SLAs_General_Timeline_Info.pptx"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i> Orders & SLAs General Timeline Info</a>
+                                    <a href="policies/Orders_General_Timeline_Info.pptx"><i class="fa fa-file-powerpoint-o" aria-hidden="true"></i> Orders Timeline</a>
                                   </div>
                               </div>
                           </li>
@@ -259,7 +261,7 @@ fname="head.asp"
                                        <a href="http://webteamcreativeportal.com/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> Website Examples</a>
                                        <p class="list">Browse website examples sorted by industry, design elements, color, and package level. </p>
                                        <p class="list"><span>Username:</span> sales</p>
-                                       <p class="list"><span>Password:</span> Alwayswinbig#2017#!</p>
+                                       <p class="list"><span>Password:</span> Alwayswinbig#2017#</p>
                                       </div>
                                   </div>
                             </li> 

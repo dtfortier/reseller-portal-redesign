@@ -18,16 +18,36 @@ fname="head.asp"
         %>
         <!--#include file="header.asp"-->
 
-        <div id="page-wrapper">
-            
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Content Creation</h1>
+        <div class="page-wrapper top">
+
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h1 class="main">Content Creation</h1>
+                            <!-- /.col-lg-12 -->
+
+                                <div class="board">
+
+                                    <ul class="nav nav-tabs" id="myTab">
+
+
+                                  <li class="active">
+                                      <a href="#policies" data-toggle="tab" title="resources">
+                                     <span class="round-tabs one">
+                                         <i class="glyphicon glyphicon-folder-open"></i><p>Resources</p>
+                                     </span> 
+                                    </a>
+                                 </li>
+                                     </ul>
+                                    </div>
+                            </div>
+                        </div>
                 </div>
-            </div>
-                <!-- /.col-lg-12 -->
-                
-           
+                        <!-- /.col-lg-12 -->
+                    <div class="page-wrapper bottom">
+                <div class="tab-content">
+          
+            <div role="tabpanel" class="tab-pane active" id="resources">
             
             <div class="row">
                 <div class="col-md-6">
@@ -60,10 +80,14 @@ fname="head.asp"
                 <div class="col-md-6"></div>
 
             </div>
+                </div>
+                     </div> <!--end tabs-->
+                        <div class="space-fill"></div>
+                    </div>
             
             
             
-    
+            
            
        
      

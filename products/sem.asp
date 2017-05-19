@@ -18,16 +18,50 @@ fname="head.asp"
         %>
         <!--#include file="header.asp"-->
 
-        <div id="page-wrapper">
+          <div class="page-wrapper top">
             
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="page-header">Search Engine Marketing (SEM)</h1>
+            
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="main">Search Engine Marketing (SEM)</h1>
+                    <!-- /.col-lg-12 -->
+                        
+                        <div class="board">
+                    
+                            <ul class="nav nav-tabs" id="myTab">
+
+                             <li class="active">
+                             <a href="#overview" data-toggle="tab" title="overview">
+                              <span class="round-tabs one">
+                                      <i class="glyphicon glyphicon-list-alt"></i><p>Overview</p> 
+                              </span> 
+                          </a></li>
+
+                          <li><a href="#resources" data-toggle="tab" title="resources">
+                             <span class="round-tabs two">
+                                 <i class="glyphicon glyphicon-folder-open"></i><p>Resources</p>
+                             </span> 
+                   </a>
+                         </li>
+                         <li><a href="#faq" data-toggle="tab" title="faq">
+                             <span class="round-tabs three">
+                                  <i class="glyphicon glyphicon-question-sign"></i><p>FAQ</p>
+                             </span> </a>
+                             </li>
+
+                             </ul>
+                            </div>
+              
+                </div>
                 </div>
             </div>
                 <!-- /.col-lg-12 -->
+            <div class="page-wrapper bottom">
                 
-            <div class="row">
+                      <!-- Tab panes -->
+                  <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="overview">
+                        <div class="row">
                 <div class="col-lg-12 block">
                     <!--<div class="heading"><h1>SEO Product Table</h1></div>-->
                     <table class="table littlePadding">
@@ -183,7 +217,10 @@ fname="head.asp"
                         </table>
                 </div>
             </div>
-            
+                        </div> <!-- end tab1 -->
+                      
+            <div role="tabpanel" class="tab-pane" id="resources">
+                        
             <div class="row">
                 <div class="col-md-6">
                     <div class="block">
@@ -376,8 +413,10 @@ fname="head.asp"
                 </div>
 
             </div>
-            
-            <div class="row">
+                </div> <!-- end tab 2 -->
+                
+            <div role="tabpanel" class="tab-pane" id="faq">           
+             <div class="row">
                 <div class="col-md-12">
                     <div class="block">
                         <div class="heading"><h1>Frequently Asked Questions - Fixed SEM</h1></div>
@@ -436,7 +475,7 @@ fname="head.asp"
                     </div>
                 </div>
             </div>
-			<div class="row">
+			 <div class="row">
                 <div class="col-md-12">
                     <div class="block">
                         <div class="heading"><h1>Frequently Asked Questions - Managed SEM</h1></div>
@@ -468,10 +507,17 @@ fname="head.asp"
                             </div>
                     </div>
                 </div>
-            </div>
+            </div>          
+                  
+             </div>
             
+                
+                
+                </div><!-- End Tabs -->
+                
+<div class="space-fill"></div>
       
-    </div>
+        </div><!-- end page-wrapper bottom -->
            
        
      

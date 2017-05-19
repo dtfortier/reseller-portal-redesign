@@ -45,7 +45,7 @@ fname="head.asp"
                     </div>
                     <!-- ** Hiding till file is retrieved **
                     <div class="block">
-                        <div class="heading"><h1>Admin Procedures & Training</h1></div>
+                        <div class="heading"><h1>Procedures & Training</h1></div>
                             <ul class="list-group">
                                   <li class="list-group-item">
                                       <div class="row">
